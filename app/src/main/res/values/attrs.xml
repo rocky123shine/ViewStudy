@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--     view01 自定义属性-->
+    <declare-styleable name="MTextView">
+        <attr name="text" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="maxLength" format="integer" />
+        <attr name="mbackground" format="reference|color" />
+        <attr name="inputType">
+            <enum name="number" value="1" />
+            <enum name="text" value="2" />
+            <enum name="password" value="3" />
+        </attr>
+
+    </declare-styleable>
+    <!--    view02 自定义属性-->
+    <declare-styleable name="QQStepView">
+        <attr name="outColor" format="color" />
+        <attr name="innerColor" format="color" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="stepTextSize" format="dimension" />
+        <attr name="stepTextColor" format="color" />
+    </declare-styleable>
+    <!--    view03 自定义属性-->
+    <declare-styleable name="ColorTrackTextView">
+        <attr name="originColor" format="color" />
+        <attr name="changeColor" format="color" />
+
+    </declare-styleable>
+    <!--    view04 自定义属性-->
+    <declare-styleable name="RatingBar">
+        <attr name="startNormal" format="reference" />
+        <attr name="starFocus" format="reference" />
+        <attr name="gradeNum" format="integer" />
+    </declare-styleable>
+
+    <!--    view05 自定义属性-->
+    <declare-styleable name="LetterSideBar">
+        <attr name="normalColor" format="color" />
+        <attr name="selectColor" format="color" />
+        <attr name="letterSize" format="dimension" />
+    </declare-styleable>
+
+    <!--    viewgroup 自定义属性-->
+    <declare-styleable name="SlidingLayout">
+        <attr name="minContentWidth" format="dimension" />
+    </declare-styleable>
+</resources>
